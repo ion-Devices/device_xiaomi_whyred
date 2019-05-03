@@ -135,3 +135,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 #Density
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=440
+
+# SurfaceFlinger
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    ro.surface_flinger.protected_contents=true
