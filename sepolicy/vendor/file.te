@@ -16,3 +16,6 @@ type keylayout_file, file_type, vendor_file_type;
 
 # Power
 type debugfs_wlan, debugfs_type, fs_type;
+
+# Kcal
+type kcal_dev, sysfs_type, fs_type;
