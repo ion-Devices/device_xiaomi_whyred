@@ -1,5 +1,6 @@
 #
 # Copyright (C) 2018 The LineageOS Project
+# Copyright (C) 2019 The ion-OS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,4 +15,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_whyred.mk
+    $(LOCAL_DIR)/ion_whyred.mk
+
+COMMON_LUNCH_CHOICES := \
+    ion_whyred-eng \
+    ion_whyred-user \
+    ion_whyred-userdebug
