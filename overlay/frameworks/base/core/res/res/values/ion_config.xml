@@ -20,4 +20,7 @@
 
     <!-- Rounded corner radius -->
     <dimen name="rounded_corner_radius">32px</dimen>
+
+    <!-- Whether the device supports Smart Pixels -->
+    <bool name="config_enableSmartPixels">true</bool>
 </resources>
