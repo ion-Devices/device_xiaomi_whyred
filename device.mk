@@ -188,6 +188,7 @@ PRODUCT_PACKAGES += \
 
 # Doze
 PRODUCT_PACKAGES += \
+    ionDevice \
     XiaomiDoze
 
 # DRM
